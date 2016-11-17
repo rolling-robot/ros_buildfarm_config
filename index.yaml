@@ -2,17 +2,17 @@
 # ROS buildfarm index file
 ---
 distributions:
-  indigo:
-    doc_builds:
-      default: indigo/doc-build.yaml
-      released-packages-without-doc-job: indigo/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-testfarm@hochet.info
-    release_builds:
-#      arm: indigo/release-armhf-build.yaml
-      default: indigo/release-build.yaml
-    source_builds:
-      default: indigo/source-build.yaml
+#  indigo:
+#    doc_builds:
+#      default: indigo/doc-build.yaml
+#      released-packages-without-doc-job: indigo/doc-released-build.yaml
+#    notification_emails:
+#    - ros-buildfarm-testfarm@hochet.info
+#    release_builds:
+##      arm: indigo/release-armhf-build.yaml
+#      default: indigo/release-build.yaml
+#    source_builds:
+#      default: indigo/source-build.yaml
 #  jade:
 #    doc_builds:
 #      default: jade/doc-build.yaml
@@ -25,9 +25,9 @@ distributions:
 #    source_builds:
 #      default: jade/source-build.yaml
   kinetic:
-    doc_builds:
-      default: kinetic/doc-build.yaml
-      released-packages-without-doc-job: kinetic/doc-released-build.yaml
+    #doc_builds:
+    #  dodefault: kinetic/doc-build.yaml
+    #  doreleased-packages-without-doc-job: kinetic/doc-released-build.yaml
     notification_emails:
     - ros-buildfarm-kinetic@hochet.info
     release_builds:
@@ -35,8 +35,8 @@ distributions:
       default: kinetic/release-build.yaml
     source_builds:
       default: kinetic/source-build.yaml
-doc_builds:
-  independent-packages: doc-independent-build.yaml
+#doc_builds:
+#  independent-packages: doc-independent-build.yaml
 jenkins_url: http://172.22.0.2:8080
 notification_emails:
 - ros-buildfarm-testfarm@hochet.info
