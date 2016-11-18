@@ -52,7 +52,7 @@ repositories:
   urls:
   - http://172.22.0.4/ubuntu/building
 target_repository: http://172.22.0.4/ubuntu/building
-targets:
+targets: {}
   #ubuntu:
   #  xenial:
   #    armhf:
