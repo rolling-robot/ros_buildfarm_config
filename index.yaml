@@ -76,7 +76,7 @@ prerequisites:
     =zy9X
     -----END PGP PUBLIC KEY BLOCK-----
   archlinux_repositories:
-  - http://172.22.0.4/archlinux/ros/$arch
+  - http://172.22.0.4/archlinux/ros
   archlinux_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
