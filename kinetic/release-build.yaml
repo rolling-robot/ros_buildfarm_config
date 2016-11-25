@@ -81,9 +81,9 @@ archlinux_repositories:
     =zy9X
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://172.22.0.4/ubuntu/building
+  - http://172.22.0.4/archlinux/ros/$arch
 target_repository: http://172.22.0.4/ubuntu/building
-archlinux_target_repository: http://172.22.0.4/ubuntu/building
+archlinux_target_repository: http://172.22.0.4/archlinux/ros/$arch
 targets:
   #ubuntu:
   #  # wily:
