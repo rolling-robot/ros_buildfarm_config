@@ -47,7 +47,43 @@ repositories:
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
   - http://172.22.0.4/ubuntu/building
+archlinux_repositories:
+  keys:
+  - |
+    -----BEGIN PGP PUBLIC KEY BLOCK-----
+    
+    mQENBFgsiQABCADPcHWTBXjJFw8Wwt9BNwwozaclCtA/QT5pSM8oqfTK2GLMtffA
+    8CTXH7OM/m6wEse8SE+FVervOpE2nJo4dxr0BspWMFFrGE5J62ltGQMpQURKifaP
+    YVu3CyfC6ZDpIqJNh2VmuxbxqrJvxxdjUCyJKti8A5n8AdAhbd4XczCe/mSVcsne
+    5f7p4EFc+4HwqM4grCHiz99FjBVxpauxM/k4iWhFyiF43Aef3aoF2+SbV+uv//ES
+    QXodcH8FUhkgO375vZ5QqoQbl6egexQnoJBKONOVfOYatu+POhEsIyQLpyV7X4w2
+    i3DB9S/sBsLYus0X4NUqqmJ80tHv0it/vS+LABEBAAG0N0dyZWdvaXJlIFBheWVu
+    IGRlIExhIEdhcmFuZGVyaWUgLSBST1MgPHJvc0Bob2NoZXQuaW5mbz6JATcEEwEI
+    ACEFAlgsiQACGwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQq8iJ2Uf6w6/g
+    JAf+I2cCkjTIeQxr/wlJCarINi+tSCRXCqNMCUIUm7xYwxmLdDYnb2WQY1eHTgPt
+    ZnAESnfChD3UpAMb11EimTjzwPUoDkoG+G4P2EjCb4VCM+JhI7GncMk9pUhKnLLV
+    z9CfGIVNsbl78pzt9C/aKYuH78BX7ykD6zw5quCFXcw9yzmQnFu0dSp2+WFvOEzh
+    EtQZV27BV1SoRJSan8XtFdcyDXuihmmypSXgRK4MqRkbIUEAMnDt4KHL82fo/5NX
+    RZS+WAi/xpuHTh3dfEd61tqY+8p8ZmvbBj1dm9Zsp9hj4994s17umzEdTMFQeKtz
+    rYu94zjjMpL1VLGa7ULOC+Dbi7kBDQRYLIkAAQgAvKnYxrcCsaBKp6HwT/S3Mc+W
+    PYK7Ca+fD3cLk1EN7Df4bqycXR2PRohIpVeqvrsS3ykua46mBJhWN2XAGQfWjzhH
+    K+wDWjCmxvH8YJ6CLWBvQex5M5N9JQ7IjMQZ1r4GbaaXejC5ALHG+zw2d1cEsaJ6
+    k3ulbhwigoGsg328CH6Lgosbx28hXirCYROLNcH8IDccwO5SAH9lQby/Mer0Gzxc
+    6WmZyt2JVQ/SApe5xv0mVcNm1lCtfyZmnhEx853G4JOaUHFtFXepMuTr3ecZ2NTA
+    VxFWVk1Cx988yyMaXaQaGbx1ozq5TifTotp20wZ4oFiFFmsYsh0hLYzx7A+dEwAR
+    AQABiQEfBBgBCAAJBQJYLIkAAhsMAAoJEKvIidlH+sOvoi8H/1Vnik29KaJbxdyx
+    VlknCUk2fMSDnEkMnzU4diX6p3sg6p+yMJCgHkDWxFnznpHAw6ZpLmEwq4gGT5zM
+    F1LCU+jQB7awJHN/a5NL43V6g55EeZFcDAgi1ZAoKEGosSubflBqwXxvcGmQe5jd
+    ipnp2CMd0JU5+rMRB8Py7VGy+GNh+lwvdGDIp7BswApFVCqGFITRH1vrjU65VAi+
+    AP1c3uxfQpdG4ZjwT5kEpYTs7G3QYY3g1XvUbjvJK4XbkwrkD5duGCa+ew58/AjJ
+    yYYq21d4QdNVGU7cs+0H7apuULQgg9mQ2BQECLE2qNSydN/omJXckGuTfXPbKPbR
+    ObDD+QI=
+    =zy9X
+    -----END PGP PUBLIC KEY BLOCK-----
+  urls:
+  - http://172.22.0.4/ubuntu/building
 target_repository: http://172.22.0.4/ubuntu/building
+archlinux_target_repository: http://172.22.0.4/ubuntu/building
 targets:
   #ubuntu:
   #  # wily:
