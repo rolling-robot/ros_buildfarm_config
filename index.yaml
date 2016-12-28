@@ -29,7 +29,7 @@ distributions:
     #  dodefault: kinetic/doc-build.yaml
     #  doreleased-packages-without-doc-job: kinetic/doc-released-build.yaml
     notification_emails:
-    - ros-buildfarm-kinetic@hochet.info
+    - rolling.robot+rosarch@gmail.com
     release_builds:
       arm: kinetic/release-armhf-build.yaml
       default: kinetic/release-build.yaml
@@ -37,46 +37,57 @@ distributions:
       default: kinetic/source-build.yaml
 #doc_builds:
 #  independent-packages: doc-independent-build.yaml
-jenkins_url: http://172.22.0.2:8080
+jenkins_url: http://93.175.31.206:8081
 notification_emails:
-- ros-buildfarm-testfarm@hochet.info
+- rolling.robot+rosarch@gmail.com
 prerequisites:
   debian_repositories:
-  - http://172.22.0.4/ubuntu/building
+  - http://192.168.122.193/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
-    
-    mQENBFgsiQABCADPcHWTBXjJFw8Wwt9BNwwozaclCtA/QT5pSM8oqfTK2GLMtffA
-    8CTXH7OM/m6wEse8SE+FVervOpE2nJo4dxr0BspWMFFrGE5J62ltGQMpQURKifaP
-    YVu3CyfC6ZDpIqJNh2VmuxbxqrJvxxdjUCyJKti8A5n8AdAhbd4XczCe/mSVcsne
-    5f7p4EFc+4HwqM4grCHiz99FjBVxpauxM/k4iWhFyiF43Aef3aoF2+SbV+uv//ES
-    QXodcH8FUhkgO375vZ5QqoQbl6egexQnoJBKONOVfOYatu+POhEsIyQLpyV7X4w2
-    i3DB9S/sBsLYus0X4NUqqmJ80tHv0it/vS+LABEBAAG0N0dyZWdvaXJlIFBheWVu
-    IGRlIExhIEdhcmFuZGVyaWUgLSBST1MgPHJvc0Bob2NoZXQuaW5mbz6JATcEEwEI
-    ACEFAlgsiQACGwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQq8iJ2Uf6w6/g
-    JAf+I2cCkjTIeQxr/wlJCarINi+tSCRXCqNMCUIUm7xYwxmLdDYnb2WQY1eHTgPt
-    ZnAESnfChD3UpAMb11EimTjzwPUoDkoG+G4P2EjCb4VCM+JhI7GncMk9pUhKnLLV
-    z9CfGIVNsbl78pzt9C/aKYuH78BX7ykD6zw5quCFXcw9yzmQnFu0dSp2+WFvOEzh
-    EtQZV27BV1SoRJSan8XtFdcyDXuihmmypSXgRK4MqRkbIUEAMnDt4KHL82fo/5NX
-    RZS+WAi/xpuHTh3dfEd61tqY+8p8ZmvbBj1dm9Zsp9hj4994s17umzEdTMFQeKtz
-    rYu94zjjMpL1VLGa7ULOC+Dbi7kBDQRYLIkAAQgAvKnYxrcCsaBKp6HwT/S3Mc+W
-    PYK7Ca+fD3cLk1EN7Df4bqycXR2PRohIpVeqvrsS3ykua46mBJhWN2XAGQfWjzhH
-    K+wDWjCmxvH8YJ6CLWBvQex5M5N9JQ7IjMQZ1r4GbaaXejC5ALHG+zw2d1cEsaJ6
-    k3ulbhwigoGsg328CH6Lgosbx28hXirCYROLNcH8IDccwO5SAH9lQby/Mer0Gzxc
-    6WmZyt2JVQ/SApe5xv0mVcNm1lCtfyZmnhEx853G4JOaUHFtFXepMuTr3ecZ2NTA
-    VxFWVk1Cx988yyMaXaQaGbx1ozq5TifTotp20wZ4oFiFFmsYsh0hLYzx7A+dEwAR
-    AQABiQEfBBgBCAAJBQJYLIkAAhsMAAoJEKvIidlH+sOvoi8H/1Vnik29KaJbxdyx
-    VlknCUk2fMSDnEkMnzU4diX6p3sg6p+yMJCgHkDWxFnznpHAw6ZpLmEwq4gGT5zM
-    F1LCU+jQB7awJHN/a5NL43V6g55EeZFcDAgi1ZAoKEGosSubflBqwXxvcGmQe5jd
-    ipnp2CMd0JU5+rMRB8Py7VGy+GNh+lwvdGDIp7BswApFVCqGFITRH1vrjU65VAi+
-    AP1c3uxfQpdG4ZjwT5kEpYTs7G3QYY3g1XvUbjvJK4XbkwrkD5duGCa+ew58/AjJ
-    yYYq21d4QdNVGU7cs+0H7apuULQgg9mQ2BQECLE2qNSydN/omJXckGuTfXPbKPbR
-    ObDD+QI=
-    =zy9X
+    Version: GnuPG v1
+
+    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
+    hMipoTNQrNiaMpEYABZjpN2sAVA=
+    =AdKL
     -----END PGP PUBLIC KEY BLOCK-----
+
   archlinux_repositories:
-  - http://172.22.0.4/archlinux/ros
+  - http://mukhachev.me/archlinux/rosarch
   archlinux_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
