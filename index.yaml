@@ -31,7 +31,7 @@ distributions:
     notification_emails:
     - rolling.robot+rosarch@gmail.com
     release_builds:
-      arm: kinetic/release-armhf-build.yaml
+    #  arm: kinetic/release-armhf-build.yaml
       default: kinetic/release-build.yaml
     source_builds:
       default: kinetic/source-build.yaml
