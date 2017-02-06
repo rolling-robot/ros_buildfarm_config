@@ -33,8 +33,8 @@ distributions:
     release_builds:
     #  arm: kinetic/release-armhf-build.yaml
       default: kinetic/release-build.yaml
-    source_builds:
-      default: kinetic/source-build.yaml
+    source_builds: {}
+      #  default: kinetic/source-build.yaml
 #doc_builds:
 #  independent-packages: doc-independent-build.yaml
 jenkins_url: http://93.175.31.206:8081
