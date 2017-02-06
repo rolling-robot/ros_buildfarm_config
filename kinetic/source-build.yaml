@@ -44,10 +44,10 @@ repositories:
     ObDD+QI=
     =zy9X
     -----END PGP PUBLIC KEY BLOCK-----
-targets:
-  ubuntu:
-    xenial:
-      amd64:
+targets: {}
+#  ubuntu:
+#    xenial:
+#      amd64:
 test_commits:
   default: true
 # do not run pr builds on the test farm (otherwise we'll get multiple reports)
