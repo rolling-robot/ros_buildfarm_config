@@ -1,14 +1,14 @@
 %YAML 1.1
 # ROS buildfarm doc-build file
 ---
-canonical_base_url: http://172.22.0.4/docs
+canonical_base_url: http://192.168.122.193/docs
 documentation_type: rosdoc_lite
 jenkins_job_priority: 90
 jenkins_job_timeout: 120
 notifications:
   committers: false
   emails:
-  - ros-buildfarm-testfarm@hochet.info
+  - rolling.robot+buildfarm@gmail.com
   maintainers: false
 repositories:
   keys:
@@ -44,7 +44,7 @@ repositories:
     =zy9X
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://172.22.0.4/ubuntu/testing
+  - http://192.168.122.193/ubuntu/testing
 targets:
   ubuntu:
     trusty:

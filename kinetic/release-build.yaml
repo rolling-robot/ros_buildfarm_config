@@ -8,7 +8,7 @@ jenkins_source_job_priority: 79
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-testfarm@hochet.info
+  - rolling.robot+buildfarm@gmail.com
   maintainers: false
 sync:
   package_count: 1
@@ -46,7 +46,7 @@ repositories:
     =zy9X
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://172.22.0.4/ubuntu/building
+  - http://192.168.122.193/ubuntu/building
 archlinux_repositories:
   keys:
   - |
@@ -81,9 +81,9 @@ archlinux_repositories:
     =zy9X
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://172.22.0.4/archlinux/ros
-target_repository: http://172.22.0.4/ubuntu/building
-archlinux_target_repository: http://172.22.0.4/archlinux/ros
+  - http://192.168.122.193/archlinux/ros
+target_repository: http://192.168.122.193/ubuntu/building
+archlinux_target_repository: http://192.168.122.193/archlinux/ros
 targets:
   #ubuntu:
   #  # wily:

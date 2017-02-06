@@ -7,11 +7,11 @@ jenkins_pull_request_job_priority: 60
 notifications:
   committers: false
   emails:
-  - ros-buildfarm-testfarm@hochet.info
+  - rolling.robot+buildfarm@gmail.com
   maintainers: false
 repositories:
   urls:
-  - http://172.22.0.4/ubuntu/testing
+  - http://192.168.122.193/ubuntu/testing
   keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
